@@ -1,0 +1,60 @@
+@font-face {
+  font-family: SchoolFont;
+  src: url(fonts/PinkBlue.ttf);
+}
+
+body {
+  font-size: 425%;
+  color: white;
+  font-family: SchoolFont;
+
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  cursor: default;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#wrapper {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#startButton {
+  width: 25%;
+}
+
+#myInput {
+  text-align: center;
+  background: none;
+  border: 2px dashed white;
+  color: white;
+  font-family:  SchoolFont;
+  font-size: 100%;
+  width: 100px;
+}
+
+#answers {
+  width: 150%;
+  margin: center;
+}
+
+#userAnswerDiv {
+  margin: 20px;
+}
+
+#assignmentsDiv {
+  margin: 20px;
+}
+
+#correctAnswerDiv {
+  margin: 20px;
+}
